@@ -1,0 +1,43 @@
+<html>
+    <head>
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+      <h2 id="header" class="header">Posts💬</h2>
+      <h3 id="inner" class="inner"></h3>
+      <div class="container big bt m-auto">
+       <button id="reset" onclick="Reset()" class="btn bt1">
+        Reset
+       </button>
+       <button id="add" onclick="displayAdd()" class="btn bt1">
+       Add Card
+       </button>
+       <div id="edit" class="new mb-3 pt-3 pb-3" class="container my-5">
+        <div class="w-25 m-auto">
+            <input id="newData" class="form-control" type="text" placeholder="Write Your newData">
+        </div>
+       </div>
+      <div class="container cont">
+        <div id="demo" class="row">
+
+        </div>
+      </div>
+      <div id="bigdiv" class="bigdiv">
+        <div id="enter" class="container card enter">
+          <h5>Enter Your NewData</h5>
+          <input id="userid"  class="form-control mb-1" type="number" placeholder="UserID:">
+          <input id="title" class="form-control mb-1" type="text" placeholder="Title:">
+          <input id="body"  class="form-control mb-1" type="text" placeholder="Body:">
+          <button id="save" onclick="Add()" class="btn bt1">
+          Save
+          </button>
+         </div>
+      </div>
+
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
